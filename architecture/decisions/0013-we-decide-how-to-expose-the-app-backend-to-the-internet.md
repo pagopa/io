@@ -9,8 +9,8 @@ Accepted
 ## Context
 
 The frontend side of the Digital Citizenship project consists of a mobile
-application named [italia-app](https://github.com/teamdigitale/italia-app).
-The `italia-app` application relies on a backend application ([italia-backend](https://github.com/teamdigitale/italia-backend))
+application named [italia-app](https://github.com/teamdigitale/io-app).
+The `italia-app` application relies on a backend application ([italia-backend](https://github.com/teamdigitale/io-backend))
 for intermediating the interaction with external services (e.g. the Digital
 Citizenship APIs) and for coordinating the SPID authentication process.
 
@@ -31,7 +31,7 @@ Requests coming from the app to the backend get routed through a few components:
   1. The `italia-backend` app.
 
 For details about the Service and the Ingress configuration, see
-[ingress.yml](https://github.com/teamdigitale/digital-citizenship/blob/master/infrastructure/kubernetes/ingress.yml).
+[ingress.yml](https://github.com/teamdigitale/io/blob/master/infrastructure/kubernetes/ingress.yml).
 
 ## Consequences
 

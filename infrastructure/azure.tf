@@ -54,7 +54,7 @@ variable "message_blob_container" {
 }
 
 variable "azurerm_functionapp_git_repo" {
-  default     = "https://github.com/teamdigitale/digital-citizenship-functions"
+  default     = "https://github.com/teamdigitale/io-functions"
   description = "The GitHub repository that must be associated to the function app"
 }
 
@@ -725,7 +725,7 @@ resource "azurerm_app_service" "azurerm_app_service_portal" {
     always_on = true
   }
 
-  # Go to https://github.com/teamdigitale/digital-citizenship-onboarding
+  # Go to https://github.com/teamdigitale/io-onboarding
   # to see how to fill these values
   app_settings {
     POLICY_NAME                  = "${var.azurerm_adb2c_policy}"
@@ -755,7 +755,7 @@ resource "azurerm_app_service" "azurerm_app_service_portal" {
 
 # Creates a new administrator user and setup the API-Key (of this user)
 # in the developer portal onboarding web application,
-# see https://github.com/teamdigitale/digital-citizenship-onboarding
+# see https://github.com/teamdigitale/io-onboarding
 resource "null_resource" "azurerm_app_service_portal" {
   triggers = {
     azurerm_app_service_portal_id = "${azurerm_app_service.azurerm_app_service_portal.id}"

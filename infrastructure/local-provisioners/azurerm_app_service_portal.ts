@@ -10,7 +10,7 @@
  * This lets the developer portal facilities web application
  * create or update API gateway users.
  *
- * https://github.com/teamdigitale/digital-citizenship-onboarding
+ * https://github.com/teamdigitale/io-onboarding
  *
  */
 // tslint:disable:no-console

@@ -185,7 +185,7 @@ data:
       <Organization>
         <OrganizationName>Digital citizenship proxy</OrganizationName>
         <OrganizationDisplayName>Digital citizenship proxy</OrganizationDisplayName>
-        <OrganizationURL>https://github.com/teamdigitale/italia-backend</OrganizationURL>
+        <OrganizationURL>https://github.com/teamdigitale/io-backend</OrganizationURL>
       </Organization>
       <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
         <SignedInfo>

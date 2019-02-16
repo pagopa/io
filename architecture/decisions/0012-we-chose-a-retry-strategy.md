@@ -46,7 +46,7 @@ The implemented strategy, that uses the [SDK method `updateMessage()`](http://az
 
 ## Consequences
 
-All message handler should call [`updateMessageVisibilityTimeout()`](https://github.com/teamdigitale/digital-citizenship-functions/blob/master/lib/utils/azure_queues.ts#L88)
+All message handler should call [`updateMessageVisibilityTimeout()`](https://github.com/teamdigitale/io-functions/blob/master/lib/utils/azure_queues.ts#L88)
 in the message processing code; the function catches errors and schedules retries.
 
 Messages that cause processing failures won't be sent to poison queues anymore

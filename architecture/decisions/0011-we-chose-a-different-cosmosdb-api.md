@@ -20,11 +20,11 @@ to use in a production environment.
 
 Since at the time we were still in the early phase of development (around
 August 2017), we decided to implement the DAL on top of the more mature
-DocumentDB API (see [this commit](https://github.com/teamdigitale/digital-citizenship-functions/commit/c72b95ebb5ed038cdf62f43dc1adacbde9668d4e)).
+DocumentDB API (see [this commit](https://github.com/teamdigitale/io-functions/commit/c72b95ebb5ed038cdf62f43dc1adacbde9668d4e)).
 
 Note that the bug has been recently fixed (October 2017), so it may be worth to
 plan a migration of the DAL to the MongoDB API.
 
 ## Consequences
 
-The DAL is implemented on top of the DocumentDB API (see [documentdb.ts](https://github.com/teamdigitale/digital-citizenship-functions/blob/master/lib/utils/documentdb.ts))
+The DAL is implemented on top of the DocumentDB API (see [documentdb.ts](https://github.com/teamdigitale/io-functions/blob/master/lib/utils/documentdb.ts))

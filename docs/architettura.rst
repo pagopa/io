@@ -1,7 +1,7 @@
 Modello di funzionamento
 ========================
 
-.. image:: https://raw.githubusercontent.com/teamdigitale/digital-citizenship-functions/master/docs/digital-citizenship-api.png
+.. image:: https://raw.githubusercontent.com/teamdigitale/io-functions/master/docs/digital-citizenship-api.png
   :alt:
 
 #. Il client API invia una richiesta (HTTPS) all'endpoint del servizio

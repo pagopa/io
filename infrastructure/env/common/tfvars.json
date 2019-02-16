@@ -14,8 +14,7 @@
     "services": "serviceId",
     "sender-services": "recipientFiscalCode"
   },
-  "app_service_portal_git_repo":
-    "https://github.com/teamdigitale/digital-citizenship-onboarding",
+  "app_service_portal_git_repo": "https://github.com/teamdigitale/io-onboarding",
   "azurerm_apim_eventhub_rule": "apim-eventhub-rule",
   "azurerm_kubernetes_admin_username": "k8s-admin",
   "azurerm_kubernetes_admin_ssh_publickey_file": "k8s_admin_key.pub",

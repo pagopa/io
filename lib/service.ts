@@ -10,7 +10,7 @@ import { DocumentClient, RetrievedDocument } from "documentdb";
 import { isRight } from "fp-ts/lib/Either";
 
 // Service is a versioned model,
-// see https://github.com/teamdigitale/digital-citizenship-functions/blob/master/lib/utils/documentdb_model_versioned.ts
+// see https://github.com/teamdigitale/io-functions/blob/master/lib/utils/documentdb_model_versioned.ts
 const SERVICE_ID_SUFFIX = "-0000000000000000";
 
 export const ServicePayload = t.strict({

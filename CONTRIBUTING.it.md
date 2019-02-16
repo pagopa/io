@@ -61,28 +61,28 @@ dei repository elencati in questa sezione. Potrai trovare:
 ## Repository GitHub
 
 Repository principale con la descrizione dell'infrastruttura:  
-https://github.com/teamdigitale/digital-citizenship
+https://github.com/teamdigitale/io
 
 Sorgenti delle API di notifica / preferenze (Azure Functions):  
-https://github.com/teamdigitale/digital-citizenship-functions
+https://github.com/teamdigitale/io-functions
 
 Sorgenti dell'App mobile:  
-https://github.com/teamdigitale/italia-app
+https://github.com/teamdigitale/io-app
 
 Sorgenti del backend dell'App:  
-https://github.com/teamdigitale/italia-backend
+https://github.com/teamdigitale/io-backend
 
 Sorgenti del proxy per le API di PagoPa:  
-https://github.com/teamdigitale/italia-pagopa-proxy
+https://github.com/teamdigitale/io-pagopa-proxy
 
 Sorgenti del client API PagoPA:  
-https://github.com/teamdigitale/italia-pagopa-api
+https://github.com/teamdigitale/io-pagopa-api
 
 Utilità per l'onboarding nel developer portal:  
-https://github.com/teamdigitale/digital-citizenship-onboarding
+https://github.com/teamdigitale/io-onboarding
 
 Sorgenti del sito web di presentazione dell'App:  
-https://github.com/teamdigitale/italia-landing
+https://github.com/teamdigitale/io-landing
 
 ## Sito web dell'App
 
@@ -199,7 +199,7 @@ Limitatamente alle decisioni che riguardano l'architettura,
 queste vengono successivamente documentate (in inglese) in
 [Architecture Decision Record](https://github.com/joelparkerhenderson/architecture_decision_record#architecture-decision-record-adr) (ADR):
 
-[ADR](https://github.com/teamdigitale/digital-citizenship/tree/master/architecture/decisions).
+[ADR](https://github.com/teamdigitale/io/tree/master/architecture/decisions).
 
 # Comunicazione
 
@@ -291,7 +291,7 @@ risultano tuttavia trasversali ai diversi progetti:
 
 Per il codice Typescript utilizza:
 
-* [italia-ts-commons](https://github.com/teamdigitale/italia-ts-commons) per la definizione dei
+* [italia-ts-commons](https://github.com/teamdigitale/io-ts-commons) per la definizione dei
   tipi personalizzati (NonEmptyString, DateFromString, EmailString, etc.)
 * [io-ts](https://github.com/gcanti/io-ts) per la definizione dei tipi e la validazione a runtime
 * [fp-ts](https://github.com/gcanti/fp-ts) per l'implementazione di
@@ -299,11 +299,11 @@ Per il codice Typescript utilizza:
   ed [Either](https://github.com/gcanti/fp-ts/blob/master/docs/api/md/Either.md)
 
 Se devi introdurre un nuovo tipo, controlla sempre che non sia già presente
-in [italia-ts-commons](https://github.com/teamdigitale/italia-ts-commons).
+in [italia-ts-commons](https://github.com/teamdigitale/io-ts-commons).
 
 Per quanto riguarda le API, i tipi vengono estratti dallo schema JSON (OpenAPI) e convertiti
 nella loro rappresentazione Typescript / io-ts tramite i tool forniti dal pacchetto
-[italia-utils](https://github.com/teamdigitale/italia-ts-commons).
+[italia-utils](https://github.com/teamdigitale/io-ts-commons).
 
 Per la progettazione delle specifiche API (swagger / OpenAPI) ci ispiriamo alle  
 [linee guida di Zalando per le scrittura di API](http://zalando.github.io/restful-api-guidelines/).
@@ -328,7 +328,7 @@ Per quanto riguarda il _naming_ delle variabili suggeriamo i seguenti pattern:
 
 dove `Result` va sostituito con un nome adeguato al contesto.
 
-Puoi trovare un esempio di questi pattern nel codice di alcuni controller Express già implementati: https://github.com/teamdigitale/digital-citizenship-functions/blob/master/lib/controllers/messages.ts#L262
+Puoi trovare un esempio di questi pattern nel codice di alcuni controller Express già implementati: https://github.com/teamdigitale/io-functions/blob/master/lib/controllers/messages.ts#L262
 
 ## Editor: linting e indentazione
 
@@ -375,7 +375,7 @@ Puoi far riferimento ai test già contenuti nelle
 directory `__tests__` esistenti per scriverne di nuovi.
 
 I file contenenti gli unit test hanno il formato
-`<file_sorgente>.test.<estensione>`, ad esempio [`errors.test.ts`](https://github.com/teamdigitale/digital-citizenship-functions/blob/master/lib/utils/__tests__/errors.test.ts)
+`<file_sorgente>.test.<estensione>`, ad esempio [`errors.test.ts`](https://github.com/teamdigitale/io-functions/blob/master/lib/utils/__tests__/errors.test.ts)
 e sono contenuti nelle directory `__tests__` presenti allo stesso livello dei sorgenti.
 
 Gli unit test vengono eseguiti tramite [Jest](https://facebook.github.io/jest/),
